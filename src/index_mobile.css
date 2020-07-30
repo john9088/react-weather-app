@@ -1,0 +1,5 @@
+@media only screen and (orientation: portrait) {
+  .weather-box .temp {
+    font-size: 10vh;
+  }
+}
