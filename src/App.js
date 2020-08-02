@@ -38,9 +38,6 @@ const App = () => {
       } else if (climate.includes("Haze")) {
         appClassName = appClassName.concat(" haze");
       }
-
-      console.log(`Climate: ${climate}`);
-      console.log(`App Class Name: ${appClassName}`);
       setWeather(data);
     }
   };
